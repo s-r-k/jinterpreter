@@ -1,0 +1,5 @@
+= ECMA Script Object internals =
+
+* Each ECMAScript Object is an *unordered collection of properties*.
+* *Properties* have zero or more *attributes* that determine how each property can be used.
+
