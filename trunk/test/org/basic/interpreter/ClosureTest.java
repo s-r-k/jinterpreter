@@ -16,10 +16,10 @@ public class ClosureTest extends TestCase {
         c.addBody(expr);
 
         Arguments args = new Arguments();
-        args.add("2", "val_1");
-        args.add("4", "val_2");
+        args.add("val_1", 2);
+        args.add("val_2", 4);
 
         InvocationResult result = c.eval(args);
-        assertEquals("6", result.value());
+        assertEquals(6, result.value());
     }
 }
