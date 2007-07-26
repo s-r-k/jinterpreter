@@ -3,9 +3,7 @@
 <node CREATED="1184444625434" ID="Freemind_Link_884253553" MODIFIED="1184444697968" TEXT="ECMAScript Runtime">
 <node CREATED="1184444296963" HGAP="48" ID="Freemind_Link_1450795267" MODIFIED="1184444704471" POSITION="right" TEXT="Can perform type conversions" VSHIFT="-71"/>
 <node CREATED="1184444706276" ID="_" LINK="ECMAScript.mm" MODIFIED="1184444782711" POSITION="left" TEXT="Cluster of ECMAScript Objects"/>
-<node CREATED="1184444731843" HGAP="91" ID="Freemind_Link_911476634" MODIFIED="1184445569309" POSITION="right" TEXT="Stack of Execution Contexts" VSHIFT="-95">
-<node CREATED="1184445639252" ID="Freemind_Link_1923619718" MODIFIED="1184445660735" TEXT="Each context has a Variable object" VSHIFT="29"/>
-</node>
+<node CREATED="1184444731843" HGAP="91" ID="Freemind_Link_911476634" LINK="Execution Context.mm" MODIFIED="1184445863645" POSITION="right" TEXT="Stack of Execution Contexts" VSHIFT="-95"/>
 <node CREATED="1184445213132" HGAP="35" ID="Freemind_Link_827164113" MODIFIED="1184445331451" POSITION="left" TEXT="Functions" VSHIFT="42">
 <node CREATED="1184445219155" ID="Freemind_Link_1682463064" MODIFIED="1184445283193" TEXT="Created using function expressions" VSHIFT="-17"/>
 <node CREATED="1184445241179" ID="Freemind_Link_792322909" MODIFIED="1184445321831" TEXT="Using function object. &#xa;Equivalent to annonymous functions" VSHIFT="15"/>
