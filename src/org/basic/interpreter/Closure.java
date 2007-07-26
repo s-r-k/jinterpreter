@@ -20,7 +20,8 @@ public class Closure {
         body = expression;
     }
 
-    public InvocationResult eval(Arguments arguments) {
-        return new InvocationResult(0);
+    public InvocationResult eval(Arguments args) {
+        body.bind(args);
+        return new InvocationResult(body.eval());
     }
 }
