@@ -1,4 +1,4 @@
 package org.basic.interpreter;
 
-public class Body {
+public class RuntimeEnvironment {
 }
