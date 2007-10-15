@@ -7,8 +7,8 @@ public class BinaryExpression {
     private String leftName;
     private String rightName;
 
-    private int rightValue;
     private int leftValue;
+    private int rightValue;
 
     public BinaryExpression(String fOperand, String sOperand, ArithmeticOperator operator, RuntimeEnvironment env) {
         this.leftName = fOperand;
