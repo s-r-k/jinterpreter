@@ -1,0 +1,35 @@
+<project name="eclisp" default="all">
+
+	<target name="clean">
+		<delete dir="classes"/>
+	</target>
+
+	<target name="all" depends="properties, init, src-compile, test-compile, run-tests"/>
+
+	<target name="init">
+		<mkdir dir="classes"/>
+	</target>
+
+	<target name="src-compile">
+		<javac srcdir="src" destdir="classes"/>
+	</target>
+
+	<target name="test-compile">
+		<javac srcdir="test" destdir="classes"/>
+	</target>
+
+	<target name="run-tests">
+		<junit ></junit> 
+
+	</target>
+
+
+
+	<target name="properties">
+		<echo message="os.name:          ${os.name}"/>
+		<echo message="basdir:           ${basedir}"/>
+		<echo message="ant.file:         ${ant.file}"/>
+		<echo message="ant.project.name: ${ant.project.name}"/>
+		<echo message="ant.java.version: ${ant.java.version}"/>
+	</target>
+</project>
